@@ -1,0 +1,75 @@
+
+cordic_test.riscv:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+0000000080000000 <_start>:
+    80000000:	00008137          	lui	sp,0x8
+    80000004:	2105                	addiw	sp,sp,1 # 8001 <_start-0x7fff7fff>
+    80000006:	0142                	slli	sp,sp,0x10
+    80000008:	08c0006f          	j	80000094 <main>
+    8000000c:	8082                	ret
+
+000000008000000e <uart_puth>:
+    8000000e:	54000737          	lui	a4,0x54000
+    80000012:	431c                	lw	a5,0(a4)
+    80000014:	fe07cfe3          	bltz	a5,80000012 <uart_puth+0x4>
+    80000018:	2501                	sext.w	a0,a0
+    8000001a:	c308                	sw	a0,0(a4)
+    8000001c:	8082                	ret
+
+000000008000001e <print_hex>:
+    8000001e:	00000797          	auipc	a5,0x0
+    80000022:	09278793          	addi	a5,a5,146 # 800000b0 <main+0x1c>
+    80000026:	6798                	ld	a4,8(a5)
+    80000028:	6394                	ld	a3,0(a5)
+    8000002a:	0107c783          	lbu	a5,16(a5)
+    8000002e:	1101                	addi	sp,sp,-32
+    80000030:	e83a                	sd	a4,16(sp)
+    80000032:	e436                	sd	a3,8(sp)
+    80000034:	00f10c23          	sb	a5,24(sp)
+    80000038:	54000737          	lui	a4,0x54000
+    8000003c:	431c                	lw	a5,0(a4)
+    8000003e:	fe07cfe3          	bltz	a5,8000003c <print_hex+0x1e>
+    80000042:	03000793          	li	a5,48
+    80000046:	c31c                	sw	a5,0(a4)
+    80000048:	54000737          	lui	a4,0x54000
+    8000004c:	431c                	lw	a5,0(a4)
+    8000004e:	fe07cfe3          	bltz	a5,8000004c <print_hex+0x2e>
+    80000052:	07800793          	li	a5,120
+    80000056:	c31c                	sw	a5,0(a4)
+    80000058:	46f1                	li	a3,28
+    8000005a:	54000737          	lui	a4,0x54000
+    8000005e:	55f1                	li	a1,-4
+    80000060:	00d557bb          	srlw	a5,a0,a3
+    80000064:	8bbd                	andi	a5,a5,15
+    80000066:	02078793          	addi	a5,a5,32
+    8000006a:	978a                	add	a5,a5,sp
+    8000006c:	fe87c603          	lbu	a2,-24(a5)
+    80000070:	431c                	lw	a5,0(a4)
+    80000072:	fe07cfe3          	bltz	a5,80000070 <print_hex+0x52>
+    80000076:	0006079b          	sext.w	a5,a2
+    8000007a:	c31c                	sw	a5,0(a4)
+    8000007c:	36f1                	addiw	a3,a3,-4
+    8000007e:	feb691e3          	bne	a3,a1,80000060 <print_hex+0x42>
+    80000082:	54000737          	lui	a4,0x54000
+    80000086:	431c                	lw	a5,0(a4)
+    80000088:	fe07cfe3          	bltz	a5,80000086 <print_hex+0x68>
+    8000008c:	47a9                	li	a5,10
+    8000008e:	c31c                	sw	a5,0(a4)
+    80000090:	6105                	addi	sp,sp,32
+    80000092:	8082                	ret
+
+Disassembly of section .text.startup:
+
+0000000080000094 <main>:
+    80000094:	6595                	lui	a1,0x5
+    80000096:	6611                	lui	a2,0x4
+    80000098:	dba58593          	addi	a1,a1,-582 # 4dba <_start-0x7fffb246>
+    8000009c:	99a60613          	addi	a2,a2,-1638 # 399a <_start-0x7fffc666>
+    800000a0:	00c5f50b          	.insn	4, 0x00c5f50b
+    800000a4:	4785                	li	a5,1
+    800000a6:	00001717          	auipc	a4,0x1
+    800000aa:	f4f73d23          	sd	a5,-166(a4) # 80001000 <tohost>
+    800000ae:	a001                	j	800000ae <main+0x1a>

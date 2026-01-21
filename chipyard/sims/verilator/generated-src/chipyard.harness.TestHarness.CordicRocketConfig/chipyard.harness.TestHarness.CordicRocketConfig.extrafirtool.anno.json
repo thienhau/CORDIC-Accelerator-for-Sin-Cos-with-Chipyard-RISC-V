@@ -1,0 +1,14 @@
+[
+	{
+		"class":"sifive.enterprise.firrtl.MarkDUTAnnotation",
+		"target":"~TestHarness|ChipTop"
+	},
+	{
+		"class": "sifive.enterprise.firrtl.TestHarnessHierarchyAnnotation",
+		"filename": "/home/haunguyen1403/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.CordicRocketConfig/model_module_hierarchy.json"
+	},
+	{
+		"class": "sifive.enterprise.firrtl.ModuleHierarchyAnnotation",
+		"filename": "/home/haunguyen1403/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.CordicRocketConfig/top_module_hierarchy.json"
+	}
+]
