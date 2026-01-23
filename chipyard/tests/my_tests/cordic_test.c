@@ -25,8 +25,8 @@ void _start() {
 }
 
 int main() {
-    register uint64_t x_in asm("a1") = 19898; 
-    register uint64_t z_in asm("a2") = 14746; 
+    register uint64_t x_in asm("a1") = 39796; 
+    register uint64_t z_in asm("a2") = 34315; 
     register uint64_t result asm("a0");
 
     asm volatile (

@@ -1677,7 +1677,7 @@ VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__647(VTestDriver___0
            == (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__in_phits_io_inner_ser_4_in_q__DOT__enq_ptr_value));
 }
 
-extern const VlWide<16>/*511:0*/ VTestDriver__ConstPool__CONST_hcfdd60a7_0;
+extern const VlWide<17>/*543:0*/ VTestDriver__ConstPool__CONST_hfcfe6515_0;
 
 VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__648(VTestDriver___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
@@ -1709,48 +1709,36 @@ VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__648(VTestDriver___0
            == (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1));
     vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_sign 
         = VL_GTS_III(32, 0U, vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_z_reg);
-    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT___GEN_2 
-        = (((- (IData)((1U & (VTestDriver__ConstPool__CONST_hcfdd60a7_0[
-                              (((IData)(0xfU) + (0x1ffU 
-                                                 & VL_SHIFTL_III(9,9,32, 
-                                                                 (0x1fU 
-                                                                  & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U))) 
-                               >> 5U)] >> (0x1fU & 
-                                           ((IData)(0xfU) 
-                                            + (0x1ffU 
-                                               & VL_SHIFTL_III(9,9,32, 
-                                                               (0x1fU 
-                                                                & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U)))))))) 
-            << 0x10U) | (0xffffU & (((0U == (0x1fU 
-                                             & VL_SHIFTL_III(9,9,32, 
-                                                             (0x1fU 
-                                                              & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U)))
-                                      ? 0U : (VTestDriver__ConstPool__CONST_hcfdd60a7_0[
-                                              (((IData)(0xfU) 
-                                                + (0x1ffU 
-                                                   & VL_SHIFTL_III(9,9,32, 
-                                                                   (0x1fU 
-                                                                    & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U))) 
-                                               >> 5U)] 
-                                              << ((IData)(0x20U) 
-                                                  - 
-                                                  (0x1fU 
-                                                   & VL_SHIFTL_III(9,9,32, 
-                                                                   (0x1fU 
-                                                                    & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U))))) 
-                                    | (VTestDriver__ConstPool__CONST_hcfdd60a7_0[
-                                       (0xfU & (VL_SHIFTL_III(9,9,32, 
-                                                              (0x1fU 
-                                                               & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U) 
-                                                >> 5U))] 
-                                       >> (0x1fU & 
-                                           VL_SHIFTL_III(9,9,32, 
-                                                         (0x1fU 
-                                                          & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)), 4U))))));
     vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_y_shift 
         = VL_SHIFTRS_III(32,32,6, vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_y_reg, (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg));
     vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_x_shift 
         = VL_SHIFTRS_III(32,32,6, vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_x_reg, (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT___GEN_1 
+        = ((0x21fU >= (0x3ffU & ((IData)(0x11U) * (0x1fU 
+                                                   & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)))))
+            ? (0x1ffffU & (((0U == (0x1fU & ((IData)(0x11U) 
+                                             * (0x1fU 
+                                                & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)))))
+                             ? 0U : (VTestDriver__ConstPool__CONST_hfcfe6515_0[
+                                     (((IData)(0x10U) 
+                                       + (0x3ffU & 
+                                          ((IData)(0x11U) 
+                                           * (0x1fU 
+                                              & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg))))) 
+                                      >> 5U)] << ((IData)(0x20U) 
+                                                  - 
+                                                  (0x1fU 
+                                                   & ((IData)(0x11U) 
+                                                      * 
+                                                      (0x1fU 
+                                                       & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg))))))) 
+                           | (VTestDriver__ConstPool__CONST_hfcfe6515_0[
+                              (0x1fU & (((IData)(0x11U) 
+                                         * (0x1fU & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg))) 
+                                        >> 5U))] >> 
+                              (0x1fU & ((IData)(0x11U) 
+                                        * (0x1fU & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_cnt_reg)))))))
+            : 0U);
     vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic___05F0 
         = (1U == (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_state));
     vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_io_resp_valid 

@@ -589,13 +589,13 @@ module RocketTile(	// @[generators/rocket-chip/src/main/scala/tile/RocketTile.sc
   `endif // not def SYNTHESIS
   wire              cordic_io_resp_valid = cordic_state == 2'h2;	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:16:22, :80:27, generators/rocket-chip/src/main/scala/tile/RocketTile.scala:165:7]
   reg               wfiNodeOut_0_REG;	// @[generators/rocket-chip/src/main/scala/tile/Interrupts.scala:131:36]
-  wire [31:0][15:0] _GEN = '{16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h0, 16'h1, 16'h1, 16'h3, 16'h6, 16'hC, 16'h18, 16'h30, 16'h5F, 16'hBE, 16'h17D, 16'h2F9, 16'h5F0, 16'hBD2, 16'h1749, 16'h2C13, 16'h4AA9};
+  wire [31:0][16:0] _GEN = '{17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h0, 17'h1, 17'h2, 17'h4, 17'h8, 17'h10, 17'h20, 17'h40, 17'h80, 17'h100, 17'h200, 17'h400, 17'h7FF, 17'hFFB, 17'h1FD6, 17'h3EB7, 17'h76B2, 17'hC910};
   wire [31:0]       _GEN_0 = {26'h0, cordic_cnt_reg};	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:21:20, :56:27]
   wire [31:0]       cordic_x_shift = $signed($signed(cordic_x_reg) >>> _GEN_0);	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:18:18, :56:27]
   wire [31:0]       cordic_y_shift = $signed($signed(cordic_y_reg) >>> _GEN_0);	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:19:18, :56:27, :57:27]
   wire              cordic_sign = $signed(cordic_z_reg) < 32'sh0;	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:20:18, :58:24]
-  wire [15:0]       _GEN_1 = _GEN[cordic_cnt_reg[4:0]];	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:21:20, :63:32]
-  wire [31:0]       _GEN_2 = {{16{_GEN_1[15]}}, _GEN_1};	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:63:32]
+  wire [16:0]       _GEN_1 = _GEN[cordic_cnt_reg[4:0]];	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:21:20, :63:32]
+  wire [31:0]       _GEN_2 = {{15{_GEN_1[16]}}, _GEN_1};	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:63:32]
   always @(posedge clock) begin	// @[generators/rocket-chip/src/main/scala/tile/RocketTile.scala:165:7]
     if (reset) begin	// @[generators/rocket-chip/src/main/scala/tile/RocketTile.scala:165:7]
       cordic_state <= 2'h0;	// @[generators/chipyard/src/main/scala/example/CordicAccelerator.scala:16:22, generators/rocket-chip/src/main/scala/tile/RocketTile.scala:165:7]

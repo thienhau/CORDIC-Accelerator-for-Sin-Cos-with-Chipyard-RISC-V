@@ -64,10 +64,10 @@ Disassembly of section .text:
 Disassembly of section .text.startup:
 
 0000000080000094 <main>:
-    80000094:	6595                	lui	a1,0x5
-    80000096:	6611                	lui	a2,0x4
-    80000098:	dba58593          	addi	a1,a1,-582 # 4dba <_start-0x7fffb246>
-    8000009c:	99a60613          	addi	a2,a2,-1638 # 399a <_start-0x7fffc666>
+    80000094:	65a9                	lui	a1,0xa
+    80000096:	6621                	lui	a2,0x8
+    80000098:	b7458593          	addi	a1,a1,-1164 # 9b74 <_start-0x7fff648c>
+    8000009c:	60b60613          	addi	a2,a2,1547 # 860b <_start-0x7fff79f5>
     800000a0:	00c5f50b          	.insn	4, 0x00c5f50b
     800000a4:	4785                	li	a5,1
     800000a6:	00001717          	auipc	a4,0x1

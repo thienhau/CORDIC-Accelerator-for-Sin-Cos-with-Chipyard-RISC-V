@@ -10,6 +10,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_90(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_90\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__tsi2tl__DOT__bodyValid = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__tsi2tl__DOT__idx = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__tsi2tl__DOT__state = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__tsi2tl__DOT___GEN = 0;
@@ -128,7 +129,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_90(VTestDriver___024roo
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_2__DOT___RANDOM[__Vi0] = 0;
     }
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_3__DOT__sync_0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_91(VTestDriver___024root* vlSelf) {
@@ -136,6 +136,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_91(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_91\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_3__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_3__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_3__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
@@ -280,7 +281,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_91(VTestDriver___024roo
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_1__DOT__source__DOT__ridx_ridx_gray__DOT__output_chain_3__DOT___RANDOM[__Vi0] = 0;
     }
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_1__DOT__source__DOT__source_valid_0__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_92(VTestDriver___024root* vlSelf) {
@@ -288,6 +288,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_92(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_92\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_1__DOT__source__DOT__source_valid_0__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_1__DOT__source__DOT__source_valid_0__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_1__DOT__source__DOT__source_valid_0__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
@@ -432,7 +433,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_92(VTestDriver___024roo
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_2__DOT__source__DOT__source_valid_0__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
     }
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_2__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_93(VTestDriver___024root* vlSelf) {
@@ -440,6 +440,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_93(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_93\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_2__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_2__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_2__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
@@ -582,9 +583,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_93(VTestDriver___024roo
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
-    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
-        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
-    }
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_94(VTestDriver___024root* vlSelf) {
@@ -592,6 +590,9 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_94(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_94\n"); );
     // Body
+    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
+        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
+    }
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_3__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
@@ -734,9 +735,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_94(VTestDriver___024roo
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
-    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
-        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
-    }
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_95(VTestDriver___024root* vlSelf) {
@@ -744,6 +742,9 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_95(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_95\n"); );
     // Body
+    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
+        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
+    }
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__out_phits_out_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
@@ -884,9 +885,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_95(VTestDriver___024roo
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
-    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
-        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
-    }
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_96(VTestDriver___024root* vlSelf) {
@@ -894,6 +892,9 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_96(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_96\n"); );
     // Body
+    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
+        vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
+    }
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
@@ -1036,7 +1037,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_96(VTestDriver___024roo
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_1__DOT__source__DOT__source_valid_1__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
     }
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_1__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_97(VTestDriver___024root* vlSelf) {
@@ -1044,6 +1044,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_97(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_97\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_1__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_1__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_1__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
@@ -1186,7 +1187,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_97(VTestDriver___024roo
     }
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_2__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_2__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_2__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_98(VTestDriver___024root* vlSelf) {
@@ -1194,6 +1194,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_98(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_98\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_2__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_2__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
     }
@@ -1338,7 +1339,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_98(VTestDriver___024roo
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_3__DOT__source__DOT__sink_extend__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
     }
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_3__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_99(VTestDriver___024root* vlSelf) {
@@ -1346,6 +1346,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_99(VTestDriver___024roo
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_99\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_3__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_3__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_3__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
@@ -1488,7 +1489,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_99(VTestDriver___024roo
     }
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_0 = 0;
     vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_1 = 0;
-    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_100(VTestDriver___024root* vlSelf) {
@@ -1496,6 +1496,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_100(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_100\n"); );
     // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT__sync_2 = 0;
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_in_async_4__DOT__source__DOT__sink_valid__DOT__io_out_source_valid_0__DOT__output_chain__DOT___RANDOM[__Vi0] = 0;
     }
@@ -1626,7 +1627,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_100(VTestDriver___024ro
     vlSelf->__VdfgTmp_h307c1faf__0 = 0;
     vlSelf->__VdfgTmp_ha7a35850__0 = 0;
     vlSelf->__VdfgTmp_hb69e842a__0 = 0;
-    vlSelf->__VdfgTmp_h8ed5379d__0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_101(VTestDriver___024root* vlSelf) {
@@ -1634,6 +1634,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_101(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_101\n"); );
     // Body
+    vlSelf->__VdfgTmp_h8ed5379d__0 = 0;
     vlSelf->__VdfgTmp_h41394e73__0 = 0;
     vlSelf->__VdfgTmp_h452f14b6__0 = 0;
     vlSelf->__VdfgTmp_hae8b3f3b__0 = 0;
@@ -1733,7 +1734,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_101(VTestDriver___024ro
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__enq_ptr_value = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__deq_ptr_value = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
-    vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_102(VTestDriver___024root* vlSelf) {
@@ -1741,6 +1741,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_102(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_102\n"); );
     // Body
+    vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_3_in_q__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_4_in_q__DOT__enq_ptr_value = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__ram__DOT__phy__DOT__in_phits_io_inner_ser_4_in_q__DOT__deq_ptr_value = 0;
@@ -1841,7 +1842,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_102(VTestDriver___024ro
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_plic__DOT__fragmenter__DOT__acknum = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_plic__DOT__fragmenter__DOT__repeater__DOT__full = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_debug__DOT__fragmenter__DOT__acknum = 0;
-    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_bootrom__DOT__fragmenter__DOT__acknum = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_103(VTestDriver___024root* vlSelf) {
@@ -1849,6 +1849,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_103(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_103\n"); );
     // Body
+    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_bootrom__DOT__fragmenter__DOT__acknum = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_prci_ctrl__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_prci_ctrl__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__cbus__DOT__coupler_to_prci_ctrl__DOT__buffer__DOT__nodeOut_a_q__DOT__ram_ext__DOT__Memory__v0 = 0;
@@ -1949,7 +1950,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_103(VTestDriver___024ro
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__head_ext__DOT__Memory__v1 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__tail_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__tail_ext__DOT__Memory__v0 = 0;
-    vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__tail_ext__DOT__Memory__v0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_104(VTestDriver___024root* vlSelf) {
@@ -1957,6 +1957,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_104(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_104\n"); );
     // Body
+    vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__tail_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__next_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__next_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__sinkA__DOT__putbuffer__DOT__next_ext__DOT__Memory__v0 = 0;
@@ -2057,7 +2058,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_104(VTestDriver___024ro
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__w_rprobeackfirst = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__s_release = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__s_pprobe = 0;
-    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__s_acquire = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_105(VTestDriver___024root* vlSelf) {
@@ -2065,6 +2065,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_105(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_105\n"); );
     // Body
+    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__s_acquire = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__w_releaseack = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__s_flush = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__coh_wrapper__DOT__l2__DOT__inclusive_cache_bank_sched__DOT__mshrs_0__DOT__w_grantfirst = 0;
@@ -2165,7 +2166,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_105(VTestDriver___024ro
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__cordic_state = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__tlMasterXbar__DOT__beatsLeft = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__s2_req_signed = 0;
-    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__s2_req_tag = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_106(VTestDriver___024root* vlSelf) {
@@ -2173,6 +2173,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_106(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_106\n"); );
     // Body
+    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__s2_req_tag = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__s2_req_addr = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__tlb_state_vec_0 = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__lrscCount = 0;
@@ -2273,7 +2274,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_106(VTestDriver___024ro
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_13__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_14__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_14__DOT__ram__v0 = 0;
-    vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_14__DOT__ram__v0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_107(VTestDriver___024root* vlSelf) {
@@ -2281,6 +2281,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_107(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_107\n"); );
     // Body
+    vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_14__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_15__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_15__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_15__DOT__ram__v0 = 0;
@@ -2381,7 +2382,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_107(VTestDriver___024ro
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_47__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_47__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_48__DOT__ram__v0 = 0;
-    vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_48__DOT__ram__v0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_108(VTestDriver___024root* vlSelf) {
@@ -2389,6 +2389,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_108(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_108\n"); );
     // Body
+    vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_48__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_48__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_49__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__dcache__DOT__data__DOT__rockettile_dcache_data_arrays_0__DOT__rockettile_dcache_data_arrays_0_ext__DOT__mem_0_49__DOT__ram__v0 = 0;
@@ -2489,7 +2490,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_108(VTestDriver___024ro
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_6__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_6__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_6__DOT__ram__v0 = 0;
-    vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_7__DOT__ram__v0 = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_109(VTestDriver___024root* vlSelf) {
@@ -2497,6 +2497,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_109(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_109\n"); );
     // Body
+    vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_7__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_7__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_0__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_7__DOT__ram__v0 = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__frontend__DOT__icache__DOT__rockettile_icache_data_arrays_1__DOT__rockettile_icache_data_arrays_0_ext__DOT__mem_0_0__DOT__ram__v0 = 0;
@@ -2597,7 +2598,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_109(VTestDriver___024ro
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_mstatus_v = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_mstatus_mpv = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_debug = 0;
-    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_mstatus_mpie = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_110(VTestDriver___024root* vlSelf) {
@@ -2605,6 +2605,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_110(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_110\n"); );
     // Body
+    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_mstatus_mpie = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_mstatus_mie = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__large_0 = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__core__DOT__csr__DOT__reg_misa = 0;
@@ -2705,7 +2706,6 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_110(VTestDriver___024ro
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__out_phits_out_async_io_enq_q_3__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvval__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__out_phits_out_async_io_enq_q_3__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
     vlSelf->__Vdlyvset__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__out_phits_out_async_io_enq_q_3__DOT__ram_flit_ext__DOT__Memory__v0 = 0;
-    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__out_phits_out_async_io_enq_q_4__DOT__deq_ptr_value = 0;
 }
 
 VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_111(VTestDriver___024root* vlSelf) {
@@ -2713,6 +2713,7 @@ VL_ATTR_COLD void VTestDriver___024root___ctor_var_reset_111(VTestDriver___024ro
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___ctor_var_reset_111\n"); );
     // Body
+    vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__out_phits_out_async_io_enq_q_4__DOT__deq_ptr_value = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__in_phits_io_inner_ser_0_in_q__DOT__enq_ptr_value = 0;
     vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__in_phits_io_inner_ser_0_in_q__DOT__deq_ptr_value = 0;
     vlSelf->__Vdlyvdim0__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__phy__DOT__in_phits_io_inner_ser_0_in_q__DOT__ram_flit_ext__DOT__Memory__v0 = 0;

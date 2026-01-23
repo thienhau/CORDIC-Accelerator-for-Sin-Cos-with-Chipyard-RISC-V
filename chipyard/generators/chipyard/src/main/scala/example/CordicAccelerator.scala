@@ -24,9 +24,9 @@ class CordicAcceleratorModule(outer: CordicAccelerator) extends LazyRoCCModuleIm
 
   // Bảng Arctan chuẩn cho 32 vòng lặp (Scale: 2^16)
   val atan_table = VecInit(
-    19113.S, 11283.S, 5961.S, 3026.S, 1520.S, 761.S, 381.S, 190.S,
-    95.S, 48.S, 24.S, 12.S, 6.S, 3.S, 1.S, 1.S,
-    0.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S,
+    51472.S, 30386.S, 16055.S, 8150.S, 4091.S, 2047.S, 1024.S, 512.S,
+    256.S, 128.S, 64.S, 32.S, 16.S, 8.S, 4.S, 2.S,
+    1.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S,
     0.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S, 0.S
   )
 

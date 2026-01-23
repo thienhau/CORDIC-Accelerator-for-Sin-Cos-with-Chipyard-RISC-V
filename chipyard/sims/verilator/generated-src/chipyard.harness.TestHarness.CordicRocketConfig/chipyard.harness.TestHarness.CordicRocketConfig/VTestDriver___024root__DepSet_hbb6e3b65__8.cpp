@@ -5,6 +5,72 @@
 #include "VTestDriver__pch.h"
 #include "VTestDriver___024root.h"
 
+VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__841(VTestDriver___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___nba_sequent__TOP__841\n"); );
+    // Body
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_1__DOT___GEN 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT___phy_io_inner_ser_1_in_valid) 
+           & ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___in_channels_1_2_io_beat_ready) 
+              | (2U != (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_1__DOT__beat))));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__fbus__DOT__coupler_from_port_named_serial_tl_0_in__DOT__buffer__DOT__nodeOut_a_q__DOT__do_enq 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT___fbus_auto_coupler_from_port_named_serial_tl_0_in_buffer_in_a_ready) 
+           & (((~ (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__is_const)) 
+               | vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_4__DOT__data_0) 
+              & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___des_4_io_out_valid)));
+    if ((2U & vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_4__DOT__data_0)) {
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[0U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___des_4_io_out_bits_payload[0U];
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[1U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___des_4_io_out_bits_payload[1U];
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[2U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___des_4_io_out_bits_payload[2U];
+    } else {
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[0U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_reg[0U];
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[1U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_reg[1U];
+        vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_0[2U] 
+            = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT__const_reg[2U];
+    }
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_4__DOT___GEN 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT___phy_io_inner_ser_4_in_valid) 
+           & ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___in_channels_4_2_io_beat_ready) 
+              | (2U != (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__des_4__DOT__beat))));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT__in_channels_4_2__DOT___GEN 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___in_channels_4_2_io_beat_ready) 
+           & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__serial_tl_domain__DOT__serdesser__DOT___des_4_io_out_valid));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT___dFirst_size_T_8 
+        = (7U & (VL_SHIFTR_III(3,3,32, (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT__dFirst_size_hi), 1U) 
+                 | ((~ ((IData)(7U) << (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__ram__DOT__r_size))) 
+                    & ((4U & ((~ (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__ram__DOT__r_source)) 
+                              << 2U)) | (3U & (((IData)(7U) 
+                                                << (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__ram__DOT__r_size)) 
+                                               >> 1U))))));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeIn_d_q__DOT__do_enq 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT___buffer_auto_out_d_ready) 
+           & ((~ (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT__drop)) 
+              & (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__ram__DOT__r_full)));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT___fragmenter_auto_anon_out_d_ready 
+        = ((IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT___buffer_auto_out_d_ready) 
+           | (IData)(vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT__drop));
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT___ram_ext_R0_data[0U] 
+        = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__ram_ext__DOT__Memory
+        [vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1][0U];
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT___ram_ext_R0_data[1U] 
+        = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__ram_ext__DOT__Memory
+        [vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1][1U];
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT___ram_ext_R0_data[2U] 
+        = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__ram_ext__DOT__Memory
+        [vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1][2U];
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT___ram_ext_R0_data[3U] 
+        = vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__ram_ext__DOT__Memory
+        [vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__buffer__DOT__nodeOut_a_q__DOT__wrap_1][3U];
+    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT__dToggle 
+        = vlSelf->__Vdly__TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__bank__DOT__fragmenter__DOT__dToggle;
+}
+
 VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__842(VTestDriver___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -4983,284 +5049,4 @@ VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__888(VTestDriver___0
                                                                   | (2U 
                                                                      & (__Vtemp_47[0U] 
                                                                         >> 0x11U))))))))))))));
-}
-
-VL_INLINE_OPT void VTestDriver___024root___nba_sequent__TOP__889(VTestDriver___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    VTestDriver__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestDriver___024root___nba_sequent__TOP__889\n"); );
-    // Init
-    VlWide<3>/*95:0*/ __Vtemp_2;
-    VlWide<3>/*95:0*/ __Vtemp_3;
-    VlWide<3>/*95:0*/ __Vtemp_6;
-    VlWide<3>/*95:0*/ __Vtemp_7;
-    VlWide<3>/*95:0*/ __Vtemp_10;
-    VlWide<3>/*95:0*/ __Vtemp_11;
-    VlWide<3>/*95:0*/ __Vtemp_14;
-    VlWide<3>/*95:0*/ __Vtemp_15;
-    VlWide<3>/*95:0*/ __Vtemp_18;
-    VlWide<3>/*95:0*/ __Vtemp_19;
-    VlWide<3>/*95:0*/ __Vtemp_22;
-    VlWide<3>/*95:0*/ __Vtemp_23;
-    VlWide<3>/*95:0*/ __Vtemp_26;
-    VlWide<3>/*95:0*/ __Vtemp_27;
-    VlWide<3>/*95:0*/ __Vtemp_30;
-    VlWide<3>/*95:0*/ __Vtemp_31;
-    VlWide<3>/*95:0*/ __Vtemp_34;
-    VlWide<3>/*95:0*/ __Vtemp_35;
-    VlWide<3>/*95:0*/ __Vtemp_38;
-    VlWide<3>/*95:0*/ __Vtemp_39;
-    VlWide<3>/*95:0*/ __Vtemp_42;
-    VlWide<3>/*95:0*/ __Vtemp_43;
-    VlWide<3>/*95:0*/ __Vtemp_46;
-    VlWide<3>/*95:0*/ __Vtemp_47;
-    VlWide<3>/*95:0*/ __Vtemp_50;
-    VlWide<3>/*95:0*/ __Vtemp_51;
-    VlWide<3>/*95:0*/ __Vtemp_54;
-    VlWide<3>/*95:0*/ __Vtemp_55;
-    VlWide<3>/*95:0*/ __Vtemp_58;
-    VlWide<3>/*95:0*/ __Vtemp_59;
-    VlWide<3>/*95:0*/ __Vtemp_62;
-    VlWide<3>/*95:0*/ __Vtemp_63;
-    VlWide<3>/*95:0*/ __Vtemp_66;
-    VlWide<3>/*95:0*/ __Vtemp_67;
-    VlWide<3>/*95:0*/ __Vtemp_70;
-    VlWide<3>/*95:0*/ __Vtemp_71;
-    VlWide<3>/*95:0*/ __Vtemp_74;
-    VlWide<3>/*95:0*/ __Vtemp_75;
-    VlWide<3>/*95:0*/ __Vtemp_78;
-    VlWide<3>/*95:0*/ __Vtemp_79;
-    VlWide<3>/*95:0*/ __Vtemp_82;
-    VlWide<3>/*95:0*/ __Vtemp_83;
-    VlWide<3>/*95:0*/ __Vtemp_86;
-    VlWide<3>/*95:0*/ __Vtemp_87;
-    VlWide<3>/*95:0*/ __Vtemp_90;
-    VlWide<3>/*95:0*/ __Vtemp_91;
-    VlWide<3>/*95:0*/ __Vtemp_94;
-    VlWide<3>/*95:0*/ __Vtemp_95;
-    VlWide<3>/*95:0*/ __Vtemp_98;
-    VlWide<3>/*95:0*/ __Vtemp_99;
-    // Body
-    __Vtemp_2[0U] = 0U;
-    __Vtemp_2[1U] = 0U;
-    __Vtemp_2[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_3, __Vtemp_2, (0x3fU 
-                                                   & (~ 
-                                                      (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                                       >> 0x14U))));
-    __Vtemp_6[0U] = 0U;
-    __Vtemp_6[1U] = 0U;
-    __Vtemp_6[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_7, __Vtemp_6, (0x3fU 
-                                                   & (~ 
-                                                      (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                                       >> 0x14U))));
-    __Vtemp_10[0U] = 0U;
-    __Vtemp_10[1U] = 0U;
-    __Vtemp_10[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_11, __Vtemp_10, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_14[0U] = 0U;
-    __Vtemp_14[1U] = 0U;
-    __Vtemp_14[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_15, __Vtemp_14, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_18[0U] = 0U;
-    __Vtemp_18[1U] = 0U;
-    __Vtemp_18[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_19, __Vtemp_18, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_22[0U] = 0U;
-    __Vtemp_22[1U] = 0U;
-    __Vtemp_22[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_23, __Vtemp_22, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_26[0U] = 0U;
-    __Vtemp_26[1U] = 0U;
-    __Vtemp_26[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_27, __Vtemp_26, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_30[0U] = 0U;
-    __Vtemp_30[1U] = 0U;
-    __Vtemp_30[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_31, __Vtemp_30, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_34[0U] = 0U;
-    __Vtemp_34[1U] = 0U;
-    __Vtemp_34[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_35, __Vtemp_34, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_38[0U] = 0U;
-    __Vtemp_38[1U] = 0U;
-    __Vtemp_38[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_39, __Vtemp_38, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_42[0U] = 0U;
-    __Vtemp_42[1U] = 0U;
-    __Vtemp_42[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_43, __Vtemp_42, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_46[0U] = 0U;
-    __Vtemp_46[1U] = 0U;
-    __Vtemp_46[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_47, __Vtemp_46, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_50[0U] = 0U;
-    __Vtemp_50[1U] = 0U;
-    __Vtemp_50[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_51, __Vtemp_50, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_54[0U] = 0U;
-    __Vtemp_54[1U] = 0U;
-    __Vtemp_54[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_55, __Vtemp_54, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_58[0U] = 0U;
-    __Vtemp_58[1U] = 0U;
-    __Vtemp_58[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_59, __Vtemp_58, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_62[0U] = 0U;
-    __Vtemp_62[1U] = 0U;
-    __Vtemp_62[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_63, __Vtemp_62, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_66[0U] = 0U;
-    __Vtemp_66[1U] = 0U;
-    __Vtemp_66[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_67, __Vtemp_66, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_70[0U] = 0U;
-    __Vtemp_70[1U] = 0U;
-    __Vtemp_70[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_71, __Vtemp_70, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_74[0U] = 0U;
-    __Vtemp_74[1U] = 0U;
-    __Vtemp_74[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_75, __Vtemp_74, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_78[0U] = 0U;
-    __Vtemp_78[1U] = 0U;
-    __Vtemp_78[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_79, __Vtemp_78, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_82[0U] = 0U;
-    __Vtemp_82[1U] = 0U;
-    __Vtemp_82[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_83, __Vtemp_82, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_86[0U] = 0U;
-    __Vtemp_86[1U] = 0U;
-    __Vtemp_86[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_87, __Vtemp_86, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_90[0U] = 0U;
-    __Vtemp_90[1U] = 0U;
-    __Vtemp_90[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_91, __Vtemp_90, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_94[0U] = 0U;
-    __Vtemp_94[1U] = 0U;
-    __Vtemp_94[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_95, __Vtemp_94, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    __Vtemp_98[0U] = 0U;
-    __Vtemp_98[1U] = 0U;
-    __Vtemp_98[2U] = 1U;
-    VL_SHIFTRS_WWI(65,65,6, __Vtemp_99, __Vtemp_98, 
-                   (0x3fU & (~ (vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                >> 0x14U))));
-    vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__narrower_1__DOT__roundAnyRawFNToRecFN__DOT____VdfgTmp_hbf74271b__0 
-        = ((0x80U & ((vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                      >> 0x14U) - (IData)(0x100U)))
-            ? ((0x40U & ((vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                          >> 0x14U) - (IData)(0x100U)))
-                ? 0U : ((4U & (__Vtemp_3[0U] << 2U)) 
-                        | ((2U & __Vtemp_7[0U]) | (1U 
-                                                   & (__Vtemp_11[0U] 
-                                                      >> 2U)))))
-            : (7U | (((0x40U & ((vlSelf->TestDriver__DOT__testHarness__DOT__chiptop0__DOT__system__DOT__tile_prci_domain__DOT__element_reset_domain_rockettile__DOT__fpuOpt__DOT__fpmu__DOT__in_pipe_b_in1[1U] 
-                                 >> 0x14U) - (IData)(0x100U)))
-                       ? ((0x200000U & (__Vtemp_15[1U] 
-                                        << 0xbU)) | 
-                          ((0x100000U & (__Vtemp_19[1U] 
-                                         << 9U)) | 
-                           ((0x80000U & (__Vtemp_23[1U] 
-                                         << 7U)) | 
-                            ((0x40000U & (__Vtemp_27[1U] 
-                                          << 5U)) | 
-                             ((0x20000U & (__Vtemp_31[1U] 
-                                           << 3U)) 
-                              | ((0x10000U & (__Vtemp_35[1U] 
-                                              << 1U)) 
-                                 | ((0x8000U & (__Vtemp_39[1U] 
-                                                >> 1U)) 
-                                    | ((0x4000U & (
-                                                   __Vtemp_43[1U] 
-                                                   >> 3U)) 
-                                       | ((0x2000U 
-                                           & (__Vtemp_47[1U] 
-                                              >> 5U)) 
-                                          | ((0x1000U 
-                                              & (__Vtemp_51[1U] 
-                                                 >> 7U)) 
-                                             | ((0x800U 
-                                                 & (__Vtemp_55[1U] 
-                                                    >> 9U)) 
-                                                | ((0x400U 
-                                                    & (__Vtemp_59[1U] 
-                                                       >> 0xbU)) 
-                                                   | ((0x200U 
-                                                       & (__Vtemp_63[1U] 
-                                                          >> 0xdU)) 
-                                                      | ((0x100U 
-                                                          & (__Vtemp_67[1U] 
-                                                             >> 0xfU)) 
-                                                         | ((0x80U 
-                                                             & (__Vtemp_71[1U] 
-                                                                >> 0x11U)) 
-                                                            | ((0x40U 
-                                                                & (__Vtemp_75[1U] 
-                                                                   >> 0x13U)) 
-                                                               | ((0x20U 
-                                                                   & (__Vtemp_79[1U] 
-                                                                      >> 0x15U)) 
-                                                                  | ((0x10U 
-                                                                      & (__Vtemp_83[1U] 
-                                                                         >> 0x17U)) 
-                                                                     | ((8U 
-                                                                         & (__Vtemp_87[1U] 
-                                                                            >> 0x19U)) 
-                                                                        | ((4U 
-                                                                            & (__Vtemp_91[1U] 
-                                                                               >> 0x1bU)) 
-                                                                           | ((2U 
-                                                                               & (__Vtemp_95[1U] 
-                                                                                >> 0x1dU)) 
-                                                                              | (__Vtemp_99[1U] 
-                                                                                >> 0x1fU))))))))))))))))))))))
-                       : 0x3fffffU) << 3U)));
 }
